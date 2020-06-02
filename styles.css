@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(235, 209, 209);
+    color: blue;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.list{
+    background-color: seashell;
+}
+
+#oddItem{
+    background-color: royalblue;
+}
+
+.myDiv{
+    /* height: 200px;  */
+    width: 200px;
+    background-color: darkgrey;
+    color: purple;
+    padding: 40px;
+    margin: auto;
+    border-radius: 10px;
+    border: 5px solid red;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 5px 5px 5px 5px gray; 
+}
+
+.myDiv:hover{
+    box-shadow: 5px 5px 3px 3px lavender;
+    border: 10px solid whitesmoke; 
+    color: black;
+
+}
